@@ -1,0 +1,17 @@
+footer {
+    background: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  
+    a {
+      color: white;
+      margin: 0 0.5rem;
+  
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  

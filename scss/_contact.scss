@@ -1,0 +1,31 @@
+// Página Contacto
+.contact-page {
+    padding: 2rem;
+  
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid $secondary-color;
+  
+      label {
+        font-weight: bold;
+      }
+  
+      button {
+        background: $primary-color;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
+  
