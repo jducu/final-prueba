@@ -2,7 +2,7 @@
 .contact-page {
     padding: 2rem;
   
-    form {
+    .frm-contacto {
       max-width: 600px;
       margin: auto;
       background: white;
@@ -14,9 +14,9 @@
         font-weight: bold;
       }
   
-      button {
+      .btn-contacto {
         background: $primary-color;
-        color: white;
+        color: rgb(249, 244, 244);
         border: none;
         padding: 0.5rem 1rem;
         border-radius: 5px;
